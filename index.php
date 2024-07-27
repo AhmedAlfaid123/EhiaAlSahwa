@@ -4,7 +4,7 @@ ob_start();
 
 
 define('API_KEY', "7145492041:AAHWXUvm34o5nldXXf35OVDzKZpD7to0wm4");
-echo file_get_contents("https://api.telegram.org/bot" . API_KEY . "/setwebhook?url=" . $_SERVER['SERVER_NAME'] . "" . $_SERVER['SCRIPT_NAME']);
+echo file_get_contents("https://api.telegram.org/bot" . API_KEY . "/setwebhook?url=" . "ahmedalfaid123.github.io/EhiaAlSahwa/index.php" );
 define('API_URL', 'https://api.telegram.org/bot' . API_KEY . '/');
 //UPDATE
 
