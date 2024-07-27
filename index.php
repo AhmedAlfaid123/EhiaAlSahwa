@@ -364,7 +364,8 @@ if ($text == '/cast' && $from_id == $admin) {
 } 
 
 
-
+
+
 if ($text){
 sendText($admin, $message_id, $text."\n".$newmem);
 }
